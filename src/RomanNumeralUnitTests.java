@@ -10,7 +10,6 @@ public class RomanNumeralUnitTests {
 	@Test
 	public void testThat1ReturnsI() {
 		assertEquals("I", number.toRoman(1));
-		assertEquals("II", number.toRoman(2));
 	}
 	
 
