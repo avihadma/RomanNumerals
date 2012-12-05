@@ -9,7 +9,7 @@ public class RomanNumeralUnitTests {
 
 	@Test
 	public void testThat1ReturnsI() {
-		assertEquals("LIXX", number.toRoman(652));
+		assertEquals("DCLXVI", number.toRoman(666));
 	}
 	
 
